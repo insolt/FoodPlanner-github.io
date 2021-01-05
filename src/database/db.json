@@ -1,0 +1,18 @@
+{
+    "menu": [{
+            "id": 1,
+            "name": "Strona glowna",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "name": "Galeria",
+            "link": "/gallery"
+        },
+        {
+            "id": 3,
+            "name": "Kontakt",
+            "link": "/contact"
+        }
+    ]
+}
