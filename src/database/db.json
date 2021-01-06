@@ -1,0 +1,33 @@
+{
+    "menu": [{
+            "id": 1,
+            "name": "Strona glowna",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "name": "Galeria",
+            "link": "/gallery"
+        },
+        {
+            "id": 3,
+            "name": "Kontakt",
+            "link": "/contact"
+        },
+        {
+            "id": 4,
+            "name": "Nasze produkty",
+            "link": "/products"
+        },
+        {
+            "id": 5,
+            "name": "Pomagamy",
+            "link": "/support"
+        },
+        {
+            "id": 6,
+            "name": "Nowosci rynkowe",
+            "link": "/market-news"
+        }
+    ]
+}
