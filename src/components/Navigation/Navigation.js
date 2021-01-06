@@ -1,18 +1,23 @@
-import React, { useState, useEffect } from "react"
-import { NavLink } from "react-router-dom"
+import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
  
-
+const MY_URL = "https://firebasestorage.googleapis.com/v0/b/food-planner-7754f.appspot.com/o/db.json?alt=media&token=bfa3b245-7a7c-4aaa-a038-f2d77e1387d4"
 
 const Navigation = () => {
     const [menuItems, setMenuItems] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:3005/menu")
-            .then(resp => resp.json())
-            .then(res => setMenuItems(res))
+        fetch("https://cors-anywhere.herokuapp.com/" + MY_URL)
+            .then(resp => {
+                if (resp.ok) {
+                    return resp.json()
+                }
+                throw new Error('Blad przy probie pobrania danych')})
+            .then(res => (res.menu))
+            .then(re => setMenuItems(re))
             .catch(err => console.log(err));
     }, [])
-    console.log(menuItems)
+    
     return(
         <ul>
             {menuItems.map((el) => (
@@ -22,6 +27,8 @@ const Navigation = () => {
             ))}
         </ul>
     )
+    
 }
+
 
 export default Navigation
