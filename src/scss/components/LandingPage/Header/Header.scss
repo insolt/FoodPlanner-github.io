@@ -1,0 +1,16 @@
+div.header {
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 120px;
+    background-color: var(--header);
+    div.container {
+        div.top_nav {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+section.form {
+    width: 100%;
+    background-color: var(--header);
+    .container {
+        form.subscribe {
+            height: 150px;
+            text-align: center;
+            div.form_input {
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-right: 100px;
+                label {
+                    font-family: 'Open Sans';
+                    font-size: 2em;
+                    margin-left: 100px;
+                    padding: 0;
+                    color: var(--screen_bg);
+                    input {
+                        height: 50px;
+                        margin-left: 80px;
+                        &::placeholder {
+                            color: var(--chart);
+                            font-size: 1em;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

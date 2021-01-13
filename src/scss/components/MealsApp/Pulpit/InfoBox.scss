@@ -1,0 +1,38 @@
+div.info_box {
+    width: 100%;
+    height: 25%;
+    background-color: var(--screen_bg);
+    border: 1px dotted var(--header);
+    position: absolute;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    div {
+        display: flex;
+        width: 95%;
+        height: 100%;
+    }
+    p.icon_sign {
+        margin-top: 5px;
+        font-size: 1.6em;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+    p {
+        margin-top: 10px;
+    }
+    div.window_close_icon {
+        width: 5%;
+        height: 100%;
+        padding: 3px 3px 0 0;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        cursor: pointer;
+        i {
+            font-size: 1em;
+        }
+    }
+}

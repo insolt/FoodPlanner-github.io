@@ -1,0 +1,36 @@
+header.app_header {
+    height: 85px;
+    width: 100vw;
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        font-family: var(--logo);
+        font-size: 2.3em;
+        font-weight: 300;
+        color: var(--screen_bg);
+        margin: auto 20px;
+        span {
+            color: var(--button);
+        }
+    }
+    div {
+        width: 800px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        h2.loginUserName {
+            font-family: var(--text);
+            font-size: 1.5em;
+            color: var(--screen_bg);
+            font-weight: 400;
+        }
+        i {
+            font-size: 3em;
+            color: var(--button);
+            margin-right: 50px;
+            margin-left: 20px;
+        }
+    }
+}

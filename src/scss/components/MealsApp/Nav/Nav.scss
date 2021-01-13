@@ -1,0 +1,58 @@
+section.app_main_view {
+    aside {
+        width: 240px;
+        height: calc(100vh - 85px);
+        background-color: var(--side_bar);
+        nav {
+            .aside_menu_list {
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                .aside_menu_item {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 85px;
+                    margin: auto 0;
+                    a {
+                        display: block;
+                        padding-left: 20px;
+                        padding-top: 30px;
+                        color: var(--screen_bg);
+                        font-weight: 300;
+                        text-decoration: none;
+                        font-family: var(--text);
+                        font-size: 1.4em;
+                    }
+                    span {
+                        display: none;
+                        padding-top: 27px;
+                        padding-right: 10px;
+                        font-size: 2em;
+                        color: var(--button);
+                        text-align: right;
+                    }
+                    &:hover {
+                        border-left: 5px solid var(--button);
+                        a {
+                            font-weight: 400;
+                            padding-left: 15px;
+                        }
+                        span {
+                            display: inline-block;
+                        }
+                    }
+                }
+                .active {
+                    border-left: 5px solid var(--button);
+                    a {
+                        font-weight: 400;
+                        padding-left: 15px;
+                    }
+                    span {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

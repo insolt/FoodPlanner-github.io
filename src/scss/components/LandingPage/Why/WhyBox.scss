@@ -1,0 +1,23 @@
+div.box {
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h1.why_icon {
+        i {
+            color: var(--header);
+            font-size: 3em;
+        }
+    }
+    h2.why_title {
+        color: var(--side_bar);
+        font-size: 2em;
+    }
+    p.why_description {
+        color: var(--side_bar);
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
