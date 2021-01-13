@@ -1,0 +1,32 @@
+section.calltoaction {
+    width: 100%;
+    background-color: var(--header);
+    div.container {
+        div.bowl {
+            height: 250px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-items: space-around;
+            align-items: center;
+            div.a {
+                width: 75%;
+                h3 {
+                    font-family: 'Open Sans';
+                    font-size: 2em;
+                    font-weight: 500;
+                    color: var(--screen_bg);
+                    margin: 0 0 20px 50px;
+                }
+                p {
+                    font-family: 'Open Sans';
+                    font-size: 1.5em;
+                    font-weight: 400;
+                    margin: 0 100px 20px 50px;
+                    padding: 0;
+                    color: var(--screen_bg);
+                }
+            }
+        }
+    }
+}

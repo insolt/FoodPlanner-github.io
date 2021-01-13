@@ -1,0 +1,78 @@
+section.plans_list {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 85px);
+    background-image: url(../../../../images/bg_image.png);
+    div.plans_list_view {
+        width: calc(100vw - 340px);
+        height: calc(100vh - 185px);
+        margin: 5vh auto;
+        padding: 15px 0;
+        background-color: var(--screen_bg);
+        border: 1px dotted var(--header);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        div.plans_list_header {
+            width: 93%;
+            height: 5%;
+            border-bottom: 2px solid var(--side_bar);
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1 {
+                color: var(--button);
+                margin: 3px;
+            }
+            p {
+                i {
+                    font-size: 1.6em;
+                    color: var(--success);
+                    cursor: pointer;
+                }
+            }
+        }
+        div.plans_list_body {
+            width: 90%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            table.plans_table {
+                border-collapse: collapse;
+                width: 100%;
+                thead {
+                    text-align: left;
+                    tr {
+                        border-top: 1px solid var(--side_bar);
+                        border-bottom: 1px solid var(--side_bar);
+                        th {
+                            padding: 10px 20px 10px 0;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        border-bottom: 1px solid var(--side_bar);
+                        td {
+                            vertical-align: top;
+                            padding: 10px 25px 10px 0;
+                            line-height: 1.4em;
+                        }
+                        td:last-child {
+                            i.fas {
+                                color: var(--warn);
+                                margin: 5px 10px 0 0;
+                                cursor: pointer;
+                            }
+                            i.far {
+                                color: var(--bin);
+                                margin: 5px 10px 0 0;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

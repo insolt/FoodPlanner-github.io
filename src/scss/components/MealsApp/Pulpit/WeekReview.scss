@@ -1,0 +1,57 @@
+section.week_review {
+    height: 100%;
+    width: 100%;
+    background-color: var(--screen_bg);
+    border: 1px dotted var(--header);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--text);
+    h3 {
+        color: var(--button);
+        text-align: center;
+    }
+    table {
+        width: 90%;
+        height: 80%;
+        thead {
+            tr {
+                th {
+                    font-size: 1.5em;
+                    text-align: left;
+                    border-top: 1px solid var(--chart);
+                    border-bottom: 1px solid var(--chart);
+                    padding: 12px 0;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    font-size: 1.2em;
+                    color: var(--chart);
+                    border-bottom: 1px solid var(--chart);
+                    padding: 12px 30px 12px 0;
+                }
+            }
+        }
+    }
+    div.prev_next_box {
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        width: 100%;
+        p {
+            color: var(--button);
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 700;
+            cursor: pointer;
+            i {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+button {
+    background-color: var(--button);
+    border: none;
+    display: inline-block;
+    color: var(--screen_bg);
+    font-weight: bold;
+    font-size: 120%;
+    width: 150px;
+    height: 40px;
+    padding: 0;
+}

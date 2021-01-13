@@ -1,0 +1,21 @@
+button.add_button {
+    width: 30%;
+    height: 100%;
+    background-color: var(--screen_bg);
+    border: 1px dotted var(--header);
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+    cursor: pointer;
+    i {
+        padding-top: 25px;
+        color: var(--success);
+        font-size: 3em;
+    }
+    p {
+        color: var(--success);
+        font-size: 1em;
+        font-weight: 300;
+    }
+}

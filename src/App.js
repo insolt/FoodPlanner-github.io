@@ -1,24 +1,22 @@
 import React from "react";
 import { 
-  
   Switch, 
   HashRouter,
   Route
 } from "react-router-dom";
 
-import Home from "./components/Home";
-import Navigation from "./components/Navigation";
+import LandingPage from "./components/LandingPage";
+
+import MealsApp from "./components/MealsApp";
 
 function App() {
   return (
     <div className="App">
       <HashRouter>
-        <>
-          <Navigation />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={LandingPage} />
+            <Route path="/mealsapp" component={MealsApp} />
           </Switch>
-        </>
       </HashRouter>
     </div>
   );
