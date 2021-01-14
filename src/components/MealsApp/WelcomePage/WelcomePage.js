@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SubmitFormButton from "./SubmitFormButton"
 
 import "../../../scss/components/MealsApp/WelcomePage/WelcomePage.scss"
-// import { Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 const WelcomePage = () => {
     const [userName, setUserName] = useState('')
@@ -20,9 +20,9 @@ const WelcomePage = () => {
                     <h1>Hi,</h1>
                     <h2>Let us know your name <br /> and we will set the App up for you</h2>
                     <input name="name" value={userName} placeholder="your name" onChange={(e) => setUserName(e.target.value)}/>
-                    {/* <Switch>
+                    <Switch>
                         <Route exact path="/mealsapp/planner" component={WelcomePage} />
-                    </Switch> */}
+                    </Switch>
                     <SubmitFormButton onDone={handleClick} width="150px" height="40px" text="Go!" />
                 </div>
             </div>
