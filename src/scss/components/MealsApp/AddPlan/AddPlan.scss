@@ -1,0 +1,102 @@
+section.add_new_plan {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 85px);
+    background-image: url(../../../../images/bg_image.png);
+    div.add_new_plan {
+        width: calc(100vw - 340px);
+        height: calc(100vh - 185px);
+        margin: 5vh auto;
+        background-color: var(--screen_bg);
+        border: 1px dashed var(--header);
+        form.add_new_plan_form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div.new_plan_header {
+                display: flex;
+                justify-content: space-between;
+                margin: 0 30px;
+                border-bottom: 2px solid var(--chart);
+                h1 {
+                    color: var(--button);
+                    margin-bottom: 5px;
+                }
+                button {
+                    background: var(--button);
+                    width: 140px;
+                    height: 35px;
+                    color: var(--screen_bg);
+                    margin-top: 20px;
+                    border: none;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+            div.description {
+                margin-bottom: 20px;
+                div.input_text_area {
+                    margin: 5px 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 100px;
+                    margin-bottom: 20px;
+                    label {
+                        color: var(--header);
+                        font-size: 1.5em;
+                    }
+                    input {
+                        width: 75%;
+                    }
+                    textarea {
+                        width: 75%;
+                        height: 80px;
+                    }
+                    input.input_week_number {
+                        width: 4%;
+                        margin-right: 71%
+                    }
+                }
+            }
+            div.new_plan_table {
+                height: 100%;
+                table {
+                    width: 92%;
+                    margin-left: 40px;
+                    border-collapse: collapse;
+                    thead {
+                        tr {
+                            th {
+                                border-top: 1px solid var(--chart);
+                                width: 14%;
+                                padding: 10px 0;
+                                font-size: 1.3em;
+                            }
+                            th:first-child {
+                                border-top: none;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            th {
+                                border-top: 1px solid var(--chart);
+                                border-bottom: 1px solid var(--chart);
+                                padding: 10px 0;
+                                font-size: 1.3em;
+                            }
+                            td {
+                                border-top: 1px solid var(--chart);
+                                border-bottom: 1px solid var(--chart);
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

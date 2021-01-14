@@ -3,7 +3,6 @@ import React from "react";
 import "../../../scss/components/MealsApp/PlansList/PlansList.scss";
 
 const PlansList = () => {
-
     const handleClickAdd = () => {
         console.log("dodaje")
     }
