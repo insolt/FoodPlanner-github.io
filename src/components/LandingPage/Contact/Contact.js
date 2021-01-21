@@ -36,9 +36,9 @@ const Contact = () => {
                             <SubmitFormButton onDone={handleClick} width="120px" height="45px" text="Send me"/>
                         </form>
                         <div className="contact_social_media">
-                            <h2 className="contact"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></h2>
-                            <h2 className="contact"><a href="https://www.twiter.com"><i class="fab fa-twitter-square"></i></a></h2>
-                            <h2 className="contact"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></h2>
+                            <h2 className="contact"><a href="https://www.facebook.com"><i className="fab fa-facebook-square"></i></a></h2>
+                            <h2 className="contact"><a href="https://www.twiter.com"><i className="fab fa-twitter-square"></i></a></h2>
+                            <h2 className="contact"><a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a></h2>
                         </div>
                     </div>
                 </div>

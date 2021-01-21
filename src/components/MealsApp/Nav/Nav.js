@@ -1,8 +1,8 @@
 import React from "react";
 
-import AppNavButton from "./AppNavButton"
+import AppNavButton from "./AppNavButton";
 
-import "../../../scss/components/MealsApp/Nav/Nav.scss"
+import "../../../scss/components/MealsApp/Nav/Nav.scss";
 
 const Nav = () => {
     return(
@@ -10,10 +10,10 @@ const Nav = () => {
             <aside>
                 <nav>
                     <ul id="app_nav" className="aside_menu_list">
-                        <AppNavButton text="Desktop" />
-                        <AppNavButton text="Recipes" />
-                        <AppNavButton text="Plans" />
-                        <AppNavButton text="Shopping" />
+                        <AppNavButton to="/pulpit" text="Pulpit" />
+                        <AppNavButton to="/recipeslist" text="Recipes" />
+                        <AppNavButton to="/planslist" text="Plans" />
+                        <AppNavButton to="/shoppinglist" text="Shopping" />
                     </ul>
                 </nav>
             </aside>

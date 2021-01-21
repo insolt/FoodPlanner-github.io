@@ -1,3 +1,3 @@
-import PlansList from "./PlanList";
+import PlansList from "./PlansList";
 
 export default PlansList;

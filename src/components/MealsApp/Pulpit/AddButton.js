@@ -1,17 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../../../scss/components/MealsApp/Pulpit/AddButton.scss";
 
-const AddButton = ({ text, onDone, value }) => {
+const AddButton = ({ text, to }) => {
 
-    const handleClick = (e) => {
-        onDone(e)
-    }
     return(
-        <button className="add_button" value={value} onClick={handleClick}>
-            <i className="far fa-plus-square"></i>
-            <p>{text}</p>
-        </button>
+            <button className="add_button" ><Link to={to}>
+                <i className="far fa-plus-square"></i>
+                <p>{text}</p></Link>
+            </button>
     )
 }
 

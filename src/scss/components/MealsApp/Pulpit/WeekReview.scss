@@ -13,6 +13,7 @@ section.week_review {
         text-align: center;
     }
     table {
+        border-collapse: collapse;
         width: 90%;
         height: 80%;
         thead {
@@ -29,7 +30,6 @@ section.week_review {
         tbody {
             tr {
                 td {
-                    font-size: 1.2em;
                     color: var(--chart);
                     border-bottom: 1px solid var(--chart);
                     padding: 12px 30px 12px 0;

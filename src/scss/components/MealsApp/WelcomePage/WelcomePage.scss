@@ -1,17 +1,19 @@
     section.app_content {
         width: calc(100vw - 240px);
         height: calc(100vh - 85px);
+        min-width: 1100px;
         background-image: url(../../../../images/bg_image.png);
         div.welcome_board {
             width: calc(100vw - 340px);
             height: calc(100vh - 185px);
+            min-width: 1100px;
             margin: 5vh auto;
             background-color: var(--screen_bg);
             border: 1px dotted var(--header);
             display: flex;
             justify-content: center;
             align-items: center;
-            div {
+            form {
                 width: 400px;
                 height: 50%;
                 display: flex;
@@ -32,7 +34,9 @@
                 input {
                     width: 300px;
                     height: 40px;
+                    font-size: 2em;
                     margin-bottom: 20px;
+                    text-align: center;
                     border: 1px solid rgb(173, 165, 165);
                     &::placeholder {
                         font-size: 0.8em;

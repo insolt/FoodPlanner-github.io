@@ -14,7 +14,7 @@ const MealsPlanner = () => {
                         <h3 className="opening_header">Switch to our app</h3>
                         <p className="opening_heading">It has never been easier to change food habbits and get fit!</p>
                     </div>
-                    <ButtonCallToAction target="../../#/MealsApp" width="200px" height="60px" text="Start" 
+                    <ButtonCallToAction target="/pulpit" width="200px" height="60px" text="Start" 
                     />
                 </div>
             </div>
