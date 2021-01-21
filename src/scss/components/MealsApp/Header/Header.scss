@@ -1,6 +1,7 @@
 header.app_header {
     height: 85px;
     width: 100vw;
+    min-width: 1350px;
     background-color: var(--header);
     display: flex;
     justify-content: space-between;

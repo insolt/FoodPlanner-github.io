@@ -4,11 +4,11 @@ section.app_main_view {
         height: calc(100vh - 85px);
         background-color: var(--side_bar);
         nav {
-            .aside_menu_list {
+            ul.aside_menu_list {
                 padding: 0;
                 margin: 0;
                 list-style-type: none;
-                .aside_menu_item {
+                li.aside_menu_item {
                     display: flex;
                     justify-content: space-between;
                     height: 85px;
@@ -32,25 +32,17 @@ section.app_main_view {
                         text-align: right;
                     }
                     &:hover {
-                        border-left: 5px solid var(--button);
                         a {
                             font-weight: 400;
-                            padding-left: 15px;
                         }
                         span {
                             display: inline-block;
                         }
                     }
                 }
-                .active {
+                a.active {
                     border-left: 5px solid var(--button);
-                    a {
-                        font-weight: 400;
-                        padding-left: 15px;
-                    }
-                    span {
-                        display: inline-block;
-                    }
+                    font-weight: 400;
                 }
             }
         }

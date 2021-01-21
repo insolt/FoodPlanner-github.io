@@ -5,6 +5,7 @@ section.add_new_recipe {
     div.add_new_recipe {
         width: calc(100vw - 340px);
         height: calc(100vh - 185px);
+        min-width: 1100px;
         margin: 5vh auto;
         background-color: var(--screen_bg);
         border: 1px dashed var(--header);
@@ -103,12 +104,14 @@ section.add_new_recipe {
                                 color: var(--header);
                                 line-height: 1.5em;
                                 i.fa-edit {
+                                    padding-left: 10px;
                                     color: var(--warn);
                                     &:hover {
                                         cursor: pointer;
                                     }
                                 }
                                 i.fa-trash-alt {
+                                    padding-left: 5px;
                                     color: var(--bin);
                                     &:hover {
                                         cursor: pointer;
@@ -160,12 +163,14 @@ section.add_new_recipe {
                                 color: var(--header);
                                 line-height: 1.5em;
                                 i.fa-edit {
+                                    padding-left: 10px;
                                     color: var(--warn);
                                     &:hover {
                                         cursor: pointer;
                                     }
                                 }
                                 i.fa-trash-alt {
+                                    padding-left: 5px;
                                     color: var(--bin);
                                     &:hover {
                                         cursor: pointer;

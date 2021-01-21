@@ -1,11 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-import "../../../scss/components/MealsApp/Nav/AppNavButton.scss"
+import "../../../scss/components/MealsApp/Nav/AppNavButton.scss";
 
-const AppNavButton = ({ text }) => {
+const AppNavButton = ({ to, text }) => {
     return(
-        <li className="aside_menu_item"><a className="app_nav_buttons" href='#plany'>{text}</a><span><i className="fas fa-angle-right"></i></span></li>
-
+        <li className="aside_menu_item">
+            <NavLink to={to} activeClassName="active">{text}</NavLink>
+            <span><i className="fas fa-angle-right"></i></span>
+        </li>
     )
 }
 

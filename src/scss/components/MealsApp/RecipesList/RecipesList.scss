@@ -5,6 +5,7 @@ section.recipes_list {
     div.recipes_list_view {
         width: calc(100vw - 340px);
         height: calc(100vh - 185px);
+        min-width: 1100px;
         margin: 5vh auto;
         padding: 15px 0;
         background-color: var(--screen_bg);
@@ -25,16 +26,15 @@ section.recipes_list {
                 color: var(--button);
                 margin: 3px;
             }
-            p {
-                i {
-                    font-size: 1.6em;
-                    color: var(--success);
-                    cursor: pointer;
-                }
+            i {
+                font-size: 1.6em;
+                color: var(--success);
+                cursor: pointer;
             }
         }
         div.recipes_list_body {
             width: 90%;
+            margin-bottom: 20px;
             overflow-y: scroll;
             overflow-x: hidden;
             table.recipes_table {

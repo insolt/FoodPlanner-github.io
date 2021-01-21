@@ -1,33 +1,4426 @@
 {
-    "menu": [{
-            "id": 1,
-            "name": "Strona glowna",
-            "link": "/"
-        },
-        {
-            "id": 2,
-            "name": "Galeria",
-            "link": "/gallery"
-        },
-        {
-            "id": 3,
-            "name": "Kontakt",
-            "link": "/contact"
-        },
-        {
-            "id": 4,
-            "name": "Nasze produkty",
-            "link": "/products"
-        },
-        {
-            "id": 5,
-            "name": "Pomagamy",
-            "link": "/support"
-        },
-        {
-            "id": 6,
-            "name": "Nowosci rynkowe",
-            "link": "/market-news"
-        }
-    ]
+    "Michal": {
+        "recipes": [{
+                "id": 1,
+                "recipeName": "Owsianka",
+                "recipeDescription": "Owsianka z kiwi, bananem i kakao",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 szklanka mleka 2% tł./mleka roślinnego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "4 łyżki płatków owsianych"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 średnie kiwi"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1/3 średniego banana"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka kakao naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka cynamonu"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Banana i kiwi obrać i pokroić na mniejsze kawałki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Płatki owsiane ugotować na mleku."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać kakao i cynamon, wymieszać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Gotową owsiankę podawać z pokrojonymi owocami."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "recipeName": "Twarożek",
+                "recipeDescription": "Twarożek z jabłkiem i rodzynkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "3 łyżki serka granulowanego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżeczka rodzynek"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ łyżeczki miodu naturalnego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Jabłko umyć, obrać i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wymieszać z serkiem i rodzynkami."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Sałatkę polać miodem."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "recipeName": "Danie drobiewe",
+                "recipeDescription": "Mięso drobiowe z cukinią, pieczarkami i brązowym ryżem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 porcja mięsa mielonego drobiowego (100g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "5 pieczarek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ małej cukinii"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ małej cebuli"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "3 łyżki ryżu brązowego"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony zioła prowansalskie"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Pieczarki i cukinię umyć, osuszyć, obrać i pokroić w plasterki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Na rozgrzanej oliwie podsmażyć posiekaną cebulę, czosnek i mięso."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Następnie dodać cukinię i pieczarki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Doprawić solą morską, świeżo mielonym pieprzem i ziołami prowansalskimi."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Gotowe danie podawać z ugotowanym ryżem brązowym."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "recipeName": "Koktajl pomidorowy",
+                "recipeDescription": "Koktajl pomidorowy z papryczką chili",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¾ szklanki domowego przecieru pomidorowego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 mała papryczka chili"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 ½ łyżki otrębów żytnich"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ szklanki wody mineralnej niegazowanej"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Domowy przecier pomidorowy zmiksować z posiekaną papryczką chili."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Dodać otręby żytnie i wodę mineralną."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Całość dokładnie wymieszać."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "recipeName": "Sałatka z łososiem",
+                "recipeDescription": "Sałatka z wędzonym łososiem, szpinakiem i rzodkiewką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 duża garść szpinaku"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ opakowania łososia wędzonego (50g)"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "8 pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "5 rzodkiewek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka nasion słonecznika"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "sól morska, chili, pieprz czarny świeżo zmielony, świeże oregano"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Szpinak, rzodkiewki i pomidorki umyć i osuszyć."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Rzodkiewki i pomidorki przekroić na pół, łososia pokroić na kawałki i wymieszać z warzywami."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać oregano i uprażone nasiona słonecznika."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Całość skropić oliwą z oliwek i doprawić do smaku."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "recipeName": "Omlet",
+                "recipeDescription": "Omlet z marchewką i natką pietruszki",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 całe jajko"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 białka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 średnia marchewka"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka posiekanej natki pietruszki"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "2 kromki pieczywa pełnoziarnistego"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Marchewkę umyć, obrać i zetrzeć na tarce."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Następnie podsmażyć na rozgrzanej oliwie."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Jajka rozbić i wymieszać z posiekaną natką pietruszki, solą morską i świeżo mielonym pieprzem."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Wylać jajka na patelnię."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Omlet smażyć z dwóch stron do zarumienienia się."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Podawać z pieczywem pełnoziarnistym."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "recipeName": "Koktajl",
+                "recipeDescription": "Koktajl z pomarańczą, jarmużem i orzechami nerkowca",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": ""
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "Banan ½ średniego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Pomarańcza ½ średniej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "Jarmuż 1 garść"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Orzechy nerkowca 1 łyżka"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Mleko kilka łyżek do rozcieńczenia"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Owoce umyć, osuszyć i obrać ze skórki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wszystkie składniki zmiksować na gładki koktajl."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Rozcieńczyć odpowiednią ilością mleko do uzyskania pożądanej konsystencji."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "recipeName": "Sola z warzywami",
+                "recipeDescription": "Sola zapiekana z papryką, pomidorami i sezamem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 średni filet z soli (150g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średni pomidor"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "¼ średniej papryki czerwonej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "¼ średniej papryki zielonej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "¼ średniej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżeczka octu winnego"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "1 łyżka sezamu"
+                    },
+                    {
+                        "id": 9,
+                        "ingredient": "½ łyżeczki miodu"
+                    },
+                    {
+                        "id": 10,
+                        "ingredient": "3 łyżki kaszy jęczmiennej perłowej"
+                    },
+                    {
+                        "id": 11,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony, bazylia, oregano, rozmaryn"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Paprykę i cebulę obrać, pokroić w paseczki, pomidora w ósemki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wymieszać z przyprawami."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Warzywa piec w naczyniu żaroodpornym przez ok. 15 minut."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Rybę przyprawić solą i świeżo mielonym pieprzem, wyłożyć na warzywa i polać marynatą przygotowaną z oliwy, octu winnego i miodu."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Posypać sezamem."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Warzywa lekko wymieszać z rybą i ponownie wstawić do piekarnika."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Piec do momentu kiedy ryba będzie miękka."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotowe danie podawać z ugotowaną kaszą."
+                    }
+
+                ]
+            },
+            {
+                "id": 9,
+                "recipeName": "Krem z pomidorów",
+                "recipeDescription": "Krem z pomidorów ze świeżą bazylią",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 duże dojrzałe pomidory"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ małej cebuli"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Kilka listków bazylii"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Pomidory, cebulę i czosnek drobno posiekać."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Na oliwie poddusić cebulę i czosnek przez ok. 2-3 minuty."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Wymieszać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Dodać pomidory i jogurt."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Doprawić do smaku solą i pieprzem."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Wymieszać i gotować do miękkości."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Całość zmiksować."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotową zupę udekorować listkami świeżej bazylii."
+                    }
+                ]
+
+            },
+            {
+                "id": 10,
+                "recipeName": "Sałatka",
+                "recipeDescription": "Sałatka z roszponką, mozzarellą i czarnymi oliwkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 garście roszponki (80g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 plastry suszonych pomidorów"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "2 łyżki czarnych oliwek"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "4 pomidorki koktajlowe"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "¼ średniej czerwonej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "½ kulki mozzarelli"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Dressing: 1 łyżka oliwy z oliwek, 1 łyżeczka octu winnego, ½ ząbka czosnku, ½ łyżeczki suszonego oregano, Sól morska, świeżo zmielony czarny pieprz"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Roszponkę umyć i osuszyć."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Dodać czarne oliwki i pomidorki koktajlowe przekrojone na pół, porwaną w kawałki mozarellę oraz pokrojoną w cienkie plasterki cebulę i suszone pomidory."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Składniki na dressing dokładnie wymieszać z rozgniecionym czosnkiem, doprawić solą i pieprzem."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Tak przygotowanym sosem polać sałatkę."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "recipeName": "Twarożek",
+                "recipeDescription": "Twarożek z rukolą i prażonym słonecznikiem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 plastry sera twarogowego półtłustego (80g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "5 pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ garści rukoli"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "3 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "2 łyżeczki ziaren słonecznika"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Sól morska, świeżo zmielony czarny pieprz"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "2 kromki chleba razowego (80g)"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Pomidorki i rukolę umyć i osuszyć."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Pomidorki przekroić na pół. Ser rozdrobnić, dodać jogurt naturalny, pokrojone pomidorki, rukolę i uprażony słonecznik, wymieszać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Całość doprawić solą morską i świeżo zmielonym czarnym pieprzem."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Gotowy twarożek podawać z pieczywem razowym."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "recipeName": "Sałatka owocowa",
+                "recipeDescription": "Sałatka owocowa z migdałami i miodem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ średniej pomarańczy"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego banana"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "5 zielonych winogron"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka startych migdałów"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "½ łyżeczki miodu naturalnego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Owoce obrać i pokroić."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Polać miodem i posypać startymi migdałami."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "recipeName": "Cieciorka ze szpinakiem",
+                "recipeDescription": "Cieciorka ze szpinakiem i serem feta",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¼ szklanki surowej ciecierzycy"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 szklanka rozmrożonego szpinaku"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 plaster sera feta"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 średni pomidor"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1/2 dużej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, świeżo zmielony czarny pieprz do smaku"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Ciecierzycę opłukać, zalać wodą do przykrycia i odstawić na noc."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Gotować przez ok. 1-1,5 godz. do momentu kiedy będzie miękka."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Warzywa umyć i osuszyć."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na rozgrzanej oliwie z oliwek zeszklić drobno pokrojoną cebulę i czosnek, dodać szpinak i pomidora pokrojonego w kostkę."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Dusić pod przykryciem przez kilka minut (do momentu odparowania nadmiaru wody ze szpinaku)."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Do całości dodać ugotowaną ciecierzycę, doprawić solą morską i świeżo zmielonym pieprzem, dokładnie wymieszać i dusić jeszcze przez kilka minut."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Gotowe danie posypać pokruszoną fetą."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "recipeName": "Zielony koktajl",
+                "recipeDescription": "Zielony koktajl ze szpinakiem i selerem naciowym",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ średniego ogórka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 garść świeżego szpinaku"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ łodygi selera naciowego"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka soku z cytryny"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "½ szklanki wody mineralnej niegazowanej"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Wszystkie warzywa i owoce umyć, obrać i pokroić."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Przełożyć do blendera, dodać wodę mineralną, sok z cytryny i zmiksować na jednolitą masę."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "recipeName": "Sałatka z awokado",
+                "recipeDescription": "Sałatka z awokado, tuńczyka i pomidorków koktajlowych",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ dojrzałego awokado"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "¾ puszki tuńczyka w sosie własnym"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 szklanka pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka posiekanego szczypiorku"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka posiekanej natki pietruszki"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "sól morska, pieprz czarny świeżo zmielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Awokado obrać i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Skropić sokiem z cytryny."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać odsączonego z zalewy tuńczyka oraz pokrojone w ćwiartki pomidorki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Natkę pietruszki oraz szczypiorek drobno posiekać i dodać do sałatki."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Całość dokładnie wymieszać."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Przyprawić do smaku solą oraz świeżo mielonym pieprzem."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "recipeName": "Owsianka",
+                "recipeDescription": "Owsianka pomarańczowa z granatem i orzechami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "Mleko 2% tł./mleko roślinne 1 szklanka (250ml)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "Płatki owsiane 3 łyżki (30g)"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Otręby owsiane 1 łyżka (8g)"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "Pomarańcza ½ średniej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Granat ¼ sztuki"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Orzechy włoskie 2 sztuki"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Cynamon, imbir"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Płatki owsiane, otręby, cynamon i imbir zalać mlekiem i gotować przez 3 minuty."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Do ugotowanej owsianki dodać pokrojoną w małe kawałki pomarańczę, ziarenka granatu i posiekane orzechy włoskie."
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "recipeName": "Tost razowy",
+                "recipeDescription": "Tost razowy z pastą guacamole i świeżą bazylią",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ dojrzałego awokado "
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 łyżeczka soku z limonki"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Szczypta soli morskiej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Kilka listków świeżej bazylii"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 tost z kromki pieczywa razowego (40g)"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Wydrążony miąższ awokado rozgnieść na papkę, dodać posiekaną bazylię, rozgnieciony czosnek, sok z limonki i przyprawić solą morską."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Podawać na ciepłym razowym toście."
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "recipeName": "Pęczak z kurczakiem",
+                "recipeDescription": "Kasza pęczak z kurczakiem, marchewką i porem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 średni filet z piersi kurczaka (120g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średnia marchewka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1/3 średniego pora"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "3 łyżki kaszy pęczak (45g)"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Filet z piersi kurczaka umyć, osuszyć i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Następnie oprószyć solą morską i usmażyć na rozgrzanej oliwie."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Warzywa umyć i obrać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Marchewkę zetrzeć na tarce o grubych oczkach, a pora pokroić w plasterki."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Warzywa dodać do kurczaka i dusić przez kilka minut."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Całość połączyć z ugotowaną kaszą pęczak i wymieszać."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Doprawić do smaku świeżo mielonym pieprzem."
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "recipeName": "Sok warzywny",
+                "recipeDescription": "Sok warzywny z burakiem i natką pietruszki",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 średnie jabłko"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego buraka czerwonego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 średnia marchewka"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka soku z cytryny"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka posiekanej natki pietruszki"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Ze wszystkich składników wycisnąć sok w sokowirówce."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Dodać sok z cytryny."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Przed podaniem posypać posiekaną natką pietruszki."
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "recipeName": "Sałatka z rukolą",
+                "recipeDescription": "Sałatka z rukolą, jajkiem i rzodkiewką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 jajka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 garście rukoli"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "3 liście sałaty"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "4 rzodkiewki"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Pieprz czarny świeżo mielony, bazylia"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Jajka ugotować na twardo, następnie obrać i pokroić na ćwiartki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Warzywa umyć, rzodkiewkę pokroić w plastry, sałatę porwać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Wszystkie składniki sałatki wymieszać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Skropić oliwą z oliwek i doprawić świeżo mielonym pieprzem i bazylią."
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "recipeName": "Kanapki z tuńczykiem",
+                "recipeDescription": "Kanapki z pastą z tuńczyka z zielonymi oliwkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "3 łyżki tuńczyka w sosie własnym"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "10 zielonych oliwek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "6 pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Kilka listków rukoli"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "2 kromki chleba żytniego razowego"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Odsączonego tuńczyka zmiksować z oliwkami, czosnkiem i sokiem z cytryny."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Doprawić świeżo mielonym pieprzem."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Pieczywo posmarować przygotowaną pastą."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Podawać z pomidorkami koktajlowymi i rukolą."
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "recipeName": "Koktajl",
+                "recipeDescription": "Koktajl bananowo-kokosowy",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 szklanka mleka 2% tł./mleka roślinnego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średni banan"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżeczka wiórków kokosowych"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Cynamon"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Połowę mleka wlać do miksera, dodać obranego i pokrojonego banana i sok z cytryny."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Całość zmiksować."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Następnie wlać resztę mleka i ponownie zmiksować."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Gotowy koktajl posypać wiórkami kokosowymi i cynamonem."
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "recipeName": "Kasza z brokułem",
+                "recipeDescription": "Kasza gryczana z brokułem i pieczarkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "4 łyżki kaszy gryczanej"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "5 pieczarek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniego brokuła "
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ małej cebuli "
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "4 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo zmielony, zioła prowansalskie"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Brokuł umyć, podzielić na różyczki, gotować ok. 5 min. w osolonym wrzątku."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Pieczarki dokładnie umyć, pokroić w plasterki, cebulę obrać i posiekać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Na rozgrzanej oliwie z oliwek podsmażyć cebulę i pieczarki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Ugotowaną kaszę połączyć z brokułem, cebulą i pieczarkami, polać jogurtem naturalnym, doprawić solą morską, świeżo zmielonym pieprzem i ziołami prowansalskimi."
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "recipeName": "Zupa marchewkowa",
+                "recipeDescription": "Zupa marchewkowa z kolendrą",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 duża marchewka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1/4 średniej cebuli grubo posiekanej"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "2/3 szklanki bulionu warzywnego"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "¼ pęczka świeżej kolendry"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka płatków migdałowych"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": " W dużym garnku na średnim ogniu rozgrzać oliwę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Smażyć pokrojoną marchewkę z posiekaną cebulą przez kilka minut, aż cebula nieco zmięknie."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać bulion warzywny i kolendrę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Doprowadzić do wrzenia i gotować, aż marchew zmięknie, ok. 10 minut."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Zdjąć z ognia i odstawić na chwilę, aby zupa przestygła."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Zmiksować zupę w blenderze na jednolitą konsystencję."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Gotową zupę podawać z płatkami migdałowymi."
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "recipeName": "Sałatka z indykiem",
+                "recipeDescription": "Sałatka z indykiem, pomidorami suszonymi i roszponką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ fileta z indyka (75g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 jajko"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "duża garść roszponki"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "2 pomidory suszone"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka orzechów włoskich"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "bazylia świeża kilka listków"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, pieprz czarny świeżo zmielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Filet z indyka doprawić solą i pieprzem, upiec w piekarniku lub ugotować na parze."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Jajko ugotować na twardo i pokroić na mniejsze kawałki."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Roszponkę opłukać i osuszyć."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Suszone pomidory i orzechy pokroić na mniejsze kawałki."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Pierś z indyka po ugotowaniu także pokroić w kostkę i wymieszać w misce z jajkiem, roszponką, pomidorami i orzechami."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Dodać listki świeżej bazylii i łyżkę oliwy z oliwek."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Całość dokładnie wymieszać."
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "recipeName": "Jaglanka",
+                "recipeDescription": "Jaglanka z żurawiną, migdałami i słonecznikiem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "3 łyżki kaszy jaglanej"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 / 3 szklanki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniego banana"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ średniego kiwi"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka suszonej żurawiny"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka miodu naturalnego"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżka nasion słonecznika"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "1 łyżka migdałów"
+                    },
+                    {
+                        "id": 9,
+                        "ingredient": "Sól morska"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Kaszę opłukać na sitku pod bieżącą wodą i ugotować z niewielkim dodatkiem soli.Całość dokładnie wymieszać."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Banana pokroić w plastry, a kiwi w kostkę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Ugotowaną kaszą wymieszać z jogurtem naturalnym, dodać żurawinę, miód, migdały i ziarna słonecznika."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na koniec jaglankę udekorować pokrojonymi owocami."
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "recipeName": "Kanapka",
+                "recipeDescription": "Kanapka z serem twarogowym, szczypiorkiem i oliwkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 plaster sera twarogowego półtłustego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 łyżeczka posiekanego szczypiorku"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "4 czarne oliwki"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka jogurtu naturalnego"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 kromka chleba razowego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Ser twarogowy rozdrobnić i wymieszać z jogurtem naturalnym."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Szczypiorek umyć i posiekać, oliwki pokroić w plasterki."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Kromkę chleba posmarować twarożkiem, położyć plasterki oliwek i posypać szczypiorkiem."
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "recipeName": "Sałatka z makaronem",
+                "recipeDescription": "Sałatka z makaronem pełnoziarnistym, pieczonym łososiem i jogurtem naturalnym",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 szklanka ugotowanego makaronu pełnoziarnistego świderki"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego fileta z łososia"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 / 2 średniego ogórka zielonego"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "¼ dużej papryki żółtej lub czerwonej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "2 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "2 łyżki soku z cytryny"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, świeżo zmielony czarny pieprz"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Makaron pełnoziarnisty ugotować al dente."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Filet z łososia przyprawić solą morską, świeżo zmielonym pieprzem, skropić sokiem z cytryny i piec w folii aluminiowej przez ok.25 min.w rozgrzanym do temp.180 stopni C piekarniku."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Ogórka i paprykę umyć, osuszyć i pokroić w drobną kostkę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Do makaronu dodać pokrojone warzywa, podzielonego na kawałki łososia oraz sos powstały z połączenia jogurtu naturalnego, soku z cytryny, rozgniecionego ząbka czosnku, soli morskiej i świeżo zmielonego pieprzu."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Całość dokładnie wymieszać."
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "recipeName": "Koktaj",
+                "recipeDescription": "Zielony koktajl z awokado i limonką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¾ szklanki kefiru"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego dojrzałego awokado"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżka soku z limonki lub cytryny"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka otrębów owsianych"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Awokado umyć, obierać i pokroić na kawałki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wszystkie składniki zmiksować na jednolitą masę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Koktajl podawać udekorowany listkami świeżej mięty."
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "recipeName": "Fasolka szparagowa",
+                "recipeDescription": "Fasolka szparagowa z fetą, pomidorem i sosem vinegrette",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 porcja fasolki szparagowej(200 g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średni pomidor• 1 plaster sera feta(40 g)"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Sos vinegrette✓ 1 łyżka oliwy z oliwek✓½ łyżeczki musztardy✓½ łyżeczki miodu naturalnego✓ kilka kropel soku z cytryny"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Fasolkę szparagową ugotować we wrzącej wodzie."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Pomidory i fetę pokroić w grubszą kostkę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Składniki sosu dokładnie ze sobą wymieszać i polać nim sałatkę."
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "recipeName": "Jajecznica",
+                "recipeDescription": "Jajecznica z szynką i warzywami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 jajka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego pomidora"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniej papryki czerwonej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "2 plasterki szynki drobiowej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "¼ średniej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "1 łyżeczka posiekanego szczypiorku"
+                    },
+                    {
+                        "id": 9,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony, tymianek"
+                    },
+                    {
+                        "id": 10,
+                        "ingredient": "1 kromka pieczywa razowego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Szynkę, pomidora i paprykę pokroić w paski."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Czosnek i cebulę posiekać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Na rozgrzanej oliwie z oliwek podsmażyć szynkę, dodać cebulę, czosnek i paprykę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Następnie dodać pomidora i przyprawy, dusić przez ok.3 minuty."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Wbić jajka i usmażyć."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Gotową jajecznicę posypać posiekanym szczypiorkiem.Podawać z kromką chleba razowego."
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "recipeName": "Sałatka owocowa",
+                "recipeDescription": "Sałatka owocowa z jogurtem naturalnym",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 mandarynka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 kiwi"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka rodzynek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 małe opakowanie jogurtu naturalnego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Owoce obrać."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Jabłko pokroić w kostkę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Mandarynki rozdzielić na cząstki, a kiwi pokroić w półplasterki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na dnie pucharka ułożyć pokrojone owoce, zalać gęstym jogurtem."
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "recipeName": "Filet z indyka",
+                "recipeDescription": "Filet z indyka na parze z kaszą jaglaną i surówką z selera i jabłka",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 porcja mięsa z indyka(120 g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "2 plastry selera"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "2 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "3 łyżki kaszy jaglanej"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Zioła prowansalskie, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Mięso umyć, osuszyć i oprószyć świeżo mielonym pieprzem i ziołami prowansalskimi."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Następnie skropić oliwą z oliwek i ugotować na parze."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Selera i jabłko umyć, obrać i zetrzeć na tarce."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Skropić sokiem z cytryny i połączyć z jogurtem naturalnym."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Gotowego indyka podawać z ugotowaną kaszą jaglaną i surówką."
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "recipeName": "Krem z cukinii",
+                "recipeDescription": "Krem z cukinii z pestkami dyni",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 mała cukinia(200 g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniej cebuli"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "listki świeżej bazylii"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Woda"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka pestek dyni"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo zmielony, gałka muszkatołowa"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": ""
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Cukinie umyć i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Cebulę drobno posiekać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "W garnku rozgrzać oliwę z oliwek podsmażyć cebulę, następnie dodać cukinię."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Podsmażyć przez 3 minuty i zalać wodą do wysokości warzyw."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Gotować pod przykryciem około 10 minut."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Dodać listki bazylii."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Całość zmiksować i doprawić do smaku solą morską, pieprzem i gałką muszkatołową."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotową zupę podawać z uprażonymi pestkami dyni."
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "recipeName": "Soczewica w sosie pomidorowym",
+                "recipeDescription": "Soczewica w sosie pomidorowym z warzywami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¼ szklanki surowej soczewicy"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 / 3 średniego bakłażana"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniej cebuli"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 / 3 puszki pomidorów"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżeczka posiekanej natki pietruszki"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony, majeranek, tymianek, bazylia"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Soczewicę gotować w lekko posolonej wodzie przez ok .30 minut."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Cebulę obrać i pokroić w kostkę, czosnek przecisnąć przez praskę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Bakłażana umyć, obrać i pokroić w większą kostkę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na rozgrzanej oliwie z oliwek podsmażyć cebulę i czosnek, następnie dodać bakłażana i pomidory."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Całość dusić do momentu kiedy warzywa będą miękkie."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Ugotowaną soczewicę odcedzić i dodać do warzyw, doprawić przyprawami i dokładnie wymieszać."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Dusić jeszcze przez kilka minut."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotowe danie posypać posiekaną natką pietruszki."
+                    }
+                ]
+            }
+        ],
+        "plans": [{
+                "id": 1,
+                "planName": "Tydzien 1 diety",
+                "planDescription": "Roznorodne posilki z duza iloscia warzyw i owocow",
+                "weekNumber": 1,
+                "Monday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Tuesday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Wednesday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Thursday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Friday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Saturday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Sunday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                }
+            },
+            {
+                "id": 2,
+                "planName": "Tydzien 2 diety",
+                "planDescription": "wegetarianski tydzien",
+                "weekNumber": 2,
+                "Monday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Tuesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Wednesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Thursday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Friday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Saturday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Sunday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                }
+            },
+            {
+                "id": 3,
+                "planName": "Tydzien 3 diety",
+                "planDescription": "Czas na miesozercow",
+                "weekNumber": 3,
+                "Monday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Tuesday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Wednesday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Thursday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Friday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Saturday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Sunday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                }
+            },
+            {
+                "id": 4,
+                "planName": "Tydzien 4 diety",
+                "planDescription": "Bezcukrowy",
+                "weekNumber": 4,
+                "Monday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Tuesday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Wednesday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Thursday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Friday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Saturday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Sunday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                }
+            },
+            {
+                "id": 5,
+                "planName": "Tydzien 5 diety",
+                "planDescription": "Bialko, bialko i jeszcze raz bialko",
+                "weekNumber": 5,
+                "Monday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Tuesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Wednesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Thursday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Friday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Saturday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Sunday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                }
+            },
+            {
+                "id": 6,
+                "planName": "Tydzien 6 diety",
+                "planDescription": "Chleb i woda",
+                "weekNumber": 6,
+                "Monday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Tuesday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Wednesday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Thursday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Friday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Saturday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Sunday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                }
+            },
+            {
+                "id": 7,
+                "planName": "Tydzien 7 diety",
+                "planDescription": "Chocby na skrobii...",
+                "weekNumber": 7,
+                "Monday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Tuesday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Wednesday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Thursday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Friday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Saturday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Sunday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                }
+            }
+        ]
+    },
+    "Janek": {
+        "recipes": [{
+                "id": 1,
+                "recipeName": "Owsianka",
+                "recipeDescription": "Owsianka z kiwi, bananem i kakao",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 szklanka mleka 2% tł./mleka roślinnego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "4 łyżki płatków owsianych"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 średnie kiwi"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1/3 średniego banana"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka kakao naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka cynamonu"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Banana i kiwi obrać i pokroić na mniejsze kawałki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Płatki owsiane ugotować na mleku."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać kakao i cynamon, wymieszać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Gotową owsiankę podawać z pokrojonymi owocami."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "recipeName": "Twarożek",
+                "recipeDescription": "Twarożek z jabłkiem i rodzynkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "3 łyżki serka granulowanego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżeczka rodzynek"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ łyżeczki miodu naturalnego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Jabłko umyć, obrać i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wymieszać z serkiem i rodzynkami."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Sałatkę polać miodem."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "recipeName": "Danie drobiewe",
+                "recipeDescription": "Mięso drobiowe z cukinią, pieczarkami i brązowym ryżem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 porcja mięsa mielonego drobiowego (100g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "5 pieczarek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ małej cukinii"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ małej cebuli"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "3 łyżki ryżu brązowego"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony zioła prowansalskie"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Pieczarki i cukinię umyć, osuszyć, obrać i pokroić w plasterki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Na rozgrzanej oliwie podsmażyć posiekaną cebulę, czosnek i mięso."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Następnie dodać cukinię i pieczarki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Doprawić solą morską, świeżo mielonym pieprzem i ziołami prowansalskimi."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Gotowe danie podawać z ugotowanym ryżem brązowym."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "recipeName": "Koktajl pomidorowy",
+                "recipeDescription": "Koktajl pomidorowy z papryczką chili",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¾ szklanki domowego przecieru pomidorowego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 mała papryczka chili"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 ½ łyżki otrębów żytnich"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ szklanki wody mineralnej niegazowanej"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Domowy przecier pomidorowy zmiksować z posiekaną papryczką chili."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Dodać otręby żytnie i wodę mineralną."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Całość dokładnie wymieszać."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "recipeName": "Sałatka z łososiem",
+                "recipeDescription": "Sałatka z wędzonym łososiem, szpinakiem i rzodkiewką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 duża garść szpinaku"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ opakowania łososia wędzonego (50g)"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "8 pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "5 rzodkiewek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka nasion słonecznika"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "sól morska, chili, pieprz czarny świeżo zmielony, świeże oregano"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Szpinak, rzodkiewki i pomidorki umyć i osuszyć."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Rzodkiewki i pomidorki przekroić na pół, łososia pokroić na kawałki i wymieszać z warzywami."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać oregano i uprażone nasiona słonecznika."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Całość skropić oliwą z oliwek i doprawić do smaku."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "recipeName": "Omlet",
+                "recipeDescription": "Omlet z marchewką i natką pietruszki",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 całe jajko"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 białka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 średnia marchewka"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka posiekanej natki pietruszki"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "2 kromki pieczywa pełnoziarnistego"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Marchewkę umyć, obrać i zetrzeć na tarce."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Następnie podsmażyć na rozgrzanej oliwie."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Jajka rozbić i wymieszać z posiekaną natką pietruszki, solą morską i świeżo mielonym pieprzem."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Wylać jajka na patelnię."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Omlet smażyć z dwóch stron do zarumienienia się."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Podawać z pieczywem pełnoziarnistym."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "recipeName": "Koktajl",
+                "recipeDescription": "Koktajl z pomarańczą, jarmużem i orzechami nerkowca",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": ""
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "Banan ½ średniego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Pomarańcza ½ średniej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "Jarmuż 1 garść"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Orzechy nerkowca 1 łyżka"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Mleko kilka łyżek do rozcieńczenia"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Owoce umyć, osuszyć i obrać ze skórki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wszystkie składniki zmiksować na gładki koktajl."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Rozcieńczyć odpowiednią ilością mleko do uzyskania pożądanej konsystencji."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "recipeName": "Sola z warzywami",
+                "recipeDescription": "Sola zapiekana z papryką, pomidorami i sezamem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 średni filet z soli (150g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średni pomidor"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "¼ średniej papryki czerwonej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "¼ średniej papryki zielonej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "¼ średniej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżeczka octu winnego"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "1 łyżka sezamu"
+                    },
+                    {
+                        "id": 9,
+                        "ingredient": "½ łyżeczki miodu"
+                    },
+                    {
+                        "id": 10,
+                        "ingredient": "3 łyżki kaszy jęczmiennej perłowej"
+                    },
+                    {
+                        "id": 11,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony, bazylia, oregano, rozmaryn"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Paprykę i cebulę obrać, pokroić w paseczki, pomidora w ósemki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wymieszać z przyprawami."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Warzywa piec w naczyniu żaroodpornym przez ok. 15 minut."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Rybę przyprawić solą i świeżo mielonym pieprzem, wyłożyć na warzywa i polać marynatą przygotowaną z oliwy, octu winnego i miodu."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Posypać sezamem."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Warzywa lekko wymieszać z rybą i ponownie wstawić do piekarnika."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Piec do momentu kiedy ryba będzie miękka."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotowe danie podawać z ugotowaną kaszą."
+                    }
+
+                ]
+            },
+            {
+                "id": 9,
+                "recipeName": "Krem z pomidorów",
+                "recipeDescription": "Krem z pomidorów ze świeżą bazylią",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 duże dojrzałe pomidory"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ małej cebuli"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Kilka listków bazylii"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Pomidory, cebulę i czosnek drobno posiekać."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Na oliwie poddusić cebulę i czosnek przez ok. 2-3 minuty."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Wymieszać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Dodać pomidory i jogurt."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Doprawić do smaku solą i pieprzem."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Wymieszać i gotować do miękkości."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Całość zmiksować."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotową zupę udekorować listkami świeżej bazylii."
+                    }
+                ]
+
+            },
+            {
+                "id": 10,
+                "recipeName": "Sałatka",
+                "recipeDescription": "Sałatka z roszponką, mozzarellą i czarnymi oliwkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 garście roszponki (80g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 plastry suszonych pomidorów"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "2 łyżki czarnych oliwek"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "4 pomidorki koktajlowe"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "¼ średniej czerwonej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "½ kulki mozzarelli"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Dressing: 1 łyżka oliwy z oliwek, 1 łyżeczka octu winnego, ½ ząbka czosnku, ½ łyżeczki suszonego oregano, Sól morska, świeżo zmielony czarny pieprz"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Roszponkę umyć i osuszyć."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Dodać czarne oliwki i pomidorki koktajlowe przekrojone na pół, porwaną w kawałki mozarellę oraz pokrojoną w cienkie plasterki cebulę i suszone pomidory."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Składniki na dressing dokładnie wymieszać z rozgniecionym czosnkiem, doprawić solą i pieprzem."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Tak przygotowanym sosem polać sałatkę."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "recipeName": "Twarożek",
+                "recipeDescription": "Twarożek z rukolą i prażonym słonecznikiem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 plastry sera twarogowego półtłustego (80g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "5 pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ garści rukoli"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "3 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "2 łyżeczki ziaren słonecznika"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Sól morska, świeżo zmielony czarny pieprz"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "2 kromki chleba razowego (80g)"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Pomidorki i rukolę umyć i osuszyć."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Pomidorki przekroić na pół. Ser rozdrobnić, dodać jogurt naturalny, pokrojone pomidorki, rukolę i uprażony słonecznik, wymieszać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Całość doprawić solą morską i świeżo zmielonym czarnym pieprzem."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Gotowy twarożek podawać z pieczywem razowym."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "recipeName": "Sałatka owocowa",
+                "recipeDescription": "Sałatka owocowa z migdałami i miodem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ średniej pomarańczy"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego banana"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "5 zielonych winogron"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka startych migdałów"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "½ łyżeczki miodu naturalnego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Owoce obrać i pokroić."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Polać miodem i posypać startymi migdałami."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "recipeName": "Cieciorka ze szpinakiem",
+                "recipeDescription": "Cieciorka ze szpinakiem i serem feta",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¼ szklanki surowej ciecierzycy"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 szklanka rozmrożonego szpinaku"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 plaster sera feta"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 średni pomidor"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1/2 dużej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, świeżo zmielony czarny pieprz do smaku"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Ciecierzycę opłukać, zalać wodą do przykrycia i odstawić na noc."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Gotować przez ok. 1-1,5 godz. do momentu kiedy będzie miękka."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Warzywa umyć i osuszyć."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na rozgrzanej oliwie z oliwek zeszklić drobno pokrojoną cebulę i czosnek, dodać szpinak i pomidora pokrojonego w kostkę."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Dusić pod przykryciem przez kilka minut (do momentu odparowania nadmiaru wody ze szpinaku)."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Do całości dodać ugotowaną ciecierzycę, doprawić solą morską i świeżo zmielonym pieprzem, dokładnie wymieszać i dusić jeszcze przez kilka minut."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Gotowe danie posypać pokruszoną fetą."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "recipeName": "Zielony koktajl",
+                "recipeDescription": "Zielony koktajl ze szpinakiem i selerem naciowym",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ średniego ogórka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 garść świeżego szpinaku"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ łodygi selera naciowego"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka soku z cytryny"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "½ szklanki wody mineralnej niegazowanej"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Wszystkie warzywa i owoce umyć, obrać i pokroić."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Przełożyć do blendera, dodać wodę mineralną, sok z cytryny i zmiksować na jednolitą masę."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "recipeName": "Sałatka z awokado",
+                "recipeDescription": "Sałatka z awokado, tuńczyka i pomidorków koktajlowych",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ dojrzałego awokado"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "¾ puszki tuńczyka w sosie własnym"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 szklanka pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka posiekanego szczypiorku"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka posiekanej natki pietruszki"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "sól morska, pieprz czarny świeżo zmielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Awokado obrać i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Skropić sokiem z cytryny."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać odsączonego z zalewy tuńczyka oraz pokrojone w ćwiartki pomidorki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Natkę pietruszki oraz szczypiorek drobno posiekać i dodać do sałatki."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Całość dokładnie wymieszać."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Przyprawić do smaku solą oraz świeżo mielonym pieprzem."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "recipeName": "Owsianka",
+                "recipeDescription": "Owsianka pomarańczowa z granatem i orzechami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "Mleko 2% tł./mleko roślinne 1 szklanka (250ml)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "Płatki owsiane 3 łyżki (30g)"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Otręby owsiane 1 łyżka (8g)"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "Pomarańcza ½ średniej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Granat ¼ sztuki"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Orzechy włoskie 2 sztuki"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Cynamon, imbir"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Płatki owsiane, otręby, cynamon i imbir zalać mlekiem i gotować przez 3 minuty."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Do ugotowanej owsianki dodać pokrojoną w małe kawałki pomarańczę, ziarenka granatu i posiekane orzechy włoskie."
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "recipeName": "Tost razowy",
+                "recipeDescription": "Tost razowy z pastą guacamole i świeżą bazylią",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ dojrzałego awokado "
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 łyżeczka soku z limonki"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Szczypta soli morskiej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Kilka listków świeżej bazylii"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 tost z kromki pieczywa razowego (40g)"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Wydrążony miąższ awokado rozgnieść na papkę, dodać posiekaną bazylię, rozgnieciony czosnek, sok z limonki i przyprawić solą morską."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Podawać na ciepłym razowym toście."
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "recipeName": "Pęczak z kurczakiem",
+                "recipeDescription": "Kasza pęczak z kurczakiem, marchewką i porem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 średni filet z piersi kurczaka (120g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średnia marchewka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1/3 średniego pora"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "3 łyżki kaszy pęczak (45g)"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Filet z piersi kurczaka umyć, osuszyć i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Następnie oprószyć solą morską i usmażyć na rozgrzanej oliwie."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Warzywa umyć i obrać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Marchewkę zetrzeć na tarce o grubych oczkach, a pora pokroić w plasterki."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Warzywa dodać do kurczaka i dusić przez kilka minut."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Całość połączyć z ugotowaną kaszą pęczak i wymieszać."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Doprawić do smaku świeżo mielonym pieprzem."
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "recipeName": "Sok warzywny",
+                "recipeDescription": "Sok warzywny z burakiem i natką pietruszki",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 średnie jabłko"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego buraka czerwonego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 średnia marchewka"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka soku z cytryny"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka posiekanej natki pietruszki"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Ze wszystkich składników wycisnąć sok w sokowirówce."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Dodać sok z cytryny."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Przed podaniem posypać posiekaną natką pietruszki."
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "recipeName": "Sałatka z rukolą",
+                "recipeDescription": "Sałatka z rukolą, jajkiem i rzodkiewką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 jajka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 garście rukoli"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "3 liście sałaty"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "4 rzodkiewki"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Pieprz czarny świeżo mielony, bazylia"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Jajka ugotować na twardo, następnie obrać i pokroić na ćwiartki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Warzywa umyć, rzodkiewkę pokroić w plastry, sałatę porwać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Wszystkie składniki sałatki wymieszać."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Skropić oliwą z oliwek i doprawić świeżo mielonym pieprzem i bazylią."
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "recipeName": "Kanapki z tuńczykiem",
+                "recipeDescription": "Kanapki z pastą z tuńczyka z zielonymi oliwkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "3 łyżki tuńczyka w sosie własnym"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "10 zielonych oliwek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "6 pomidorków koktajlowych"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "Kilka listków rukoli"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "2 kromki chleba żytniego razowego"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Odsączonego tuńczyka zmiksować z oliwkami, czosnkiem i sokiem z cytryny."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Doprawić świeżo mielonym pieprzem."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Pieczywo posmarować przygotowaną pastą."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Podawać z pomidorkami koktajlowymi i rukolą."
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "recipeName": "Koktajl",
+                "recipeDescription": "Koktajl bananowo-kokosowy",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 szklanka mleka 2% tł./mleka roślinnego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średni banan"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżeczka wiórków kokosowych"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Cynamon"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Połowę mleka wlać do miksera, dodać obranego i pokrojonego banana i sok z cytryny."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Całość zmiksować."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Następnie wlać resztę mleka i ponownie zmiksować."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Gotowy koktajl posypać wiórkami kokosowymi i cynamonem."
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "recipeName": "Kasza z brokułem",
+                "recipeDescription": "Kasza gryczana z brokułem i pieczarkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "4 łyżki kaszy gryczanej"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "5 pieczarek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniego brokuła "
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ małej cebuli "
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "4 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo zmielony, zioła prowansalskie"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Brokuł umyć, podzielić na różyczki, gotować ok. 5 min. w osolonym wrzątku."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Pieczarki dokładnie umyć, pokroić w plasterki, cebulę obrać i posiekać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Na rozgrzanej oliwie z oliwek podsmażyć cebulę i pieczarki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Ugotowaną kaszę połączyć z brokułem, cebulą i pieczarkami, polać jogurtem naturalnym, doprawić solą morską, świeżo zmielonym pieprzem i ziołami prowansalskimi."
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "recipeName": "Zupa marchewkowa",
+                "recipeDescription": "Zupa marchewkowa z kolendrą",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 duża marchewka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1/4 średniej cebuli grubo posiekanej"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "2/3 szklanki bulionu warzywnego"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "¼ pęczka świeżej kolendry"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka płatków migdałowych"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": " W dużym garnku na średnim ogniu rozgrzać oliwę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Smażyć pokrojoną marchewkę z posiekaną cebulą przez kilka minut, aż cebula nieco zmięknie."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Dodać bulion warzywny i kolendrę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Doprowadzić do wrzenia i gotować, aż marchew zmięknie, ok. 10 minut."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Zdjąć z ognia i odstawić na chwilę, aby zupa przestygła."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Zmiksować zupę w blenderze na jednolitą konsystencję."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Gotową zupę podawać z płatkami migdałowymi."
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "recipeName": "Sałatka z indykiem",
+                "recipeDescription": "Sałatka z indykiem, pomidorami suszonymi i roszponką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ fileta z indyka (75g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 jajko"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "duża garść roszponki"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "2 pomidory suszone"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżka orzechów włoskich"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "bazylia świeża kilka listków"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, pieprz czarny świeżo zmielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Filet z indyka doprawić solą i pieprzem, upiec w piekarniku lub ugotować na parze."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Jajko ugotować na twardo i pokroić na mniejsze kawałki."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Roszponkę opłukać i osuszyć."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Suszone pomidory i orzechy pokroić na mniejsze kawałki."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Pierś z indyka po ugotowaniu także pokroić w kostkę i wymieszać w misce z jajkiem, roszponką, pomidorami i orzechami."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Dodać listki świeżej bazylii i łyżkę oliwy z oliwek."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Całość dokładnie wymieszać."
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "recipeName": "Jaglanka",
+                "recipeDescription": "Jaglanka z żurawiną, migdałami i słonecznikiem",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "3 łyżki kaszy jaglanej"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "2 / 3 szklanki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniego banana"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ średniego kiwi"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka suszonej żurawiny"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka miodu naturalnego"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżka nasion słonecznika"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "1 łyżka migdałów"
+                    },
+                    {
+                        "id": 9,
+                        "ingredient": "Sól morska"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Kaszę opłukać na sitku pod bieżącą wodą i ugotować z niewielkim dodatkiem soli.Całość dokładnie wymieszać."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Banana pokroić w plastry, a kiwi w kostkę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Ugotowaną kaszą wymieszać z jogurtem naturalnym, dodać żurawinę, miód, migdały i ziarna słonecznika."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na koniec jaglankę udekorować pokrojonymi owocami."
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "recipeName": "Kanapka",
+                "recipeDescription": "Kanapka z serem twarogowym, szczypiorkiem i oliwkami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 plaster sera twarogowego półtłustego"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 łyżeczka posiekanego szczypiorku"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "4 czarne oliwki"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka jogurtu naturalnego"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 kromka chleba razowego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Ser twarogowy rozdrobnić i wymieszać z jogurtem naturalnym."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Szczypiorek umyć i posiekać, oliwki pokroić w plasterki."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Kromkę chleba posmarować twarożkiem, położyć plasterki oliwek i posypać szczypiorkiem."
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "recipeName": "Sałatka z makaronem",
+                "recipeDescription": "Sałatka z makaronem pełnoziarnistym, pieczonym łososiem i jogurtem naturalnym",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 szklanka ugotowanego makaronu pełnoziarnistego świderki"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego fileta z łososia"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 / 2 średniego ogórka zielonego"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "¼ dużej papryki żółtej lub czerwonej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "2 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "2 łyżki soku z cytryny"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 ząbek czosnku"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, świeżo zmielony czarny pieprz"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Makaron pełnoziarnisty ugotować al dente."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Filet z łososia przyprawić solą morską, świeżo zmielonym pieprzem, skropić sokiem z cytryny i piec w folii aluminiowej przez ok.25 min.w rozgrzanym do temp.180 stopni C piekarniku."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Ogórka i paprykę umyć, osuszyć i pokroić w drobną kostkę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Do makaronu dodać pokrojone warzywa, podzielonego na kawałki łososia oraz sos powstały z połączenia jogurtu naturalnego, soku z cytryny, rozgniecionego ząbka czosnku, soli morskiej i świeżo zmielonego pieprzu."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Całość dokładnie wymieszać."
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "recipeName": "Koktaj",
+                "recipeDescription": "Zielony koktajl z awokado i limonką",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¾ szklanki kefiru"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego dojrzałego awokado"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżka soku z limonki lub cytryny"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżka otrębów owsianych"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Awokado umyć, obierać i pokroić na kawałki."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Wszystkie składniki zmiksować na jednolitą masę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Koktajl podawać udekorowany listkami świeżej mięty."
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "recipeName": "Fasolka szparagowa",
+                "recipeDescription": "Fasolka szparagowa z fetą, pomidorem i sosem vinegrette",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 porcja fasolki szparagowej(200 g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 średni pomidor• 1 plaster sera feta(40 g)"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "Sos vinegrette✓ 1 łyżka oliwy z oliwek✓½ łyżeczki musztardy✓½ łyżeczki miodu naturalnego✓ kilka kropel soku z cytryny"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Fasolkę szparagową ugotować we wrzącej wodzie."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Pomidory i fetę pokroić w grubszą kostkę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Składniki sosu dokładnie ze sobą wymieszać i polać nim sałatkę."
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "recipeName": "Jajecznica",
+                "recipeDescription": "Jajecznica z szynką i warzywami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "2 jajka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniego pomidora"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniej papryki czerwonej"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "2 plasterki szynki drobiowej"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "¼ średniej cebuli"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "1 łyżeczka posiekanego szczypiorku"
+                    },
+                    {
+                        "id": 9,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony, tymianek"
+                    },
+                    {
+                        "id": 10,
+                        "ingredient": "1 kromka pieczywa razowego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Szynkę, pomidora i paprykę pokroić w paski."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Czosnek i cebulę posiekać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Na rozgrzanej oliwie z oliwek podsmażyć szynkę, dodać cebulę, czosnek i paprykę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Następnie dodać pomidora i przyprawy, dusić przez ok.3 minuty."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Wbić jajka i usmażyć."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Gotową jajecznicę posypać posiekanym szczypiorkiem.Podawać z kromką chleba razowego."
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "recipeName": "Sałatka owocowa",
+                "recipeDescription": "Sałatka owocowa z jogurtem naturalnym",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 mandarynka"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 kiwi"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 łyżeczka rodzynek"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 małe opakowanie jogurtu naturalnego"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Owoce obrać."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Jabłko pokroić w kostkę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Mandarynki rozdzielić na cząstki, a kiwi pokroić w półplasterki."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na dnie pucharka ułożyć pokrojone owoce, zalać gęstym jogurtem."
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "recipeName": "Filet z indyka",
+                "recipeDescription": "Filet z indyka na parze z kaszą jaglaną i surówką z selera i jabłka",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 porcja mięsa z indyka(120 g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "2 plastry selera"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "½ średniego jabłka"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "2 łyżki jogurtu naturalnego"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżeczka soku z cytryny"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "3 łyżki kaszy jaglanej"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Zioła prowansalskie, pieprz czarny świeżo mielony"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Mięso umyć, osuszyć i oprószyć świeżo mielonym pieprzem i ziołami prowansalskimi."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Następnie skropić oliwą z oliwek i ugotować na parze."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Selera i jabłko umyć, obrać i zetrzeć na tarce."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Skropić sokiem z cytryny i połączyć z jogurtem naturalnym."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Gotowego indyka podawać z ugotowaną kaszą jaglaną i surówką."
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "recipeName": "Krem z cukinii",
+                "recipeDescription": "Krem z cukinii z pestkami dyni",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "1 mała cukinia(200 g)"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "½ średniej cebuli"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "1 łyżka oliwy z oliwek"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "listki świeżej bazylii"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "Woda"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "1 łyżka pestek dyni"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "Sól morska, pieprz czarny świeżo zmielony, gałka muszkatołowa"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": ""
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Cukinie umyć i pokroić w kostkę."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Cebulę drobno posiekać."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "W garnku rozgrzać oliwę z oliwek podsmażyć cebulę, następnie dodać cukinię."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Podsmażyć przez 3 minuty i zalać wodą do wysokości warzyw."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Gotować pod przykryciem około 10 minut."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Dodać listki bazylii."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Całość zmiksować i doprawić do smaku solą morską, pieprzem i gałką muszkatołową."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotową zupę podawać z uprażonymi pestkami dyni."
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "recipeName": "Soczewica w sosie pomidorowym",
+                "recipeDescription": "Soczewica w sosie pomidorowym z warzywami",
+                "ingredients": [{
+                        "id": 1,
+                        "ingredient": "¼ szklanki surowej soczewicy"
+                    },
+                    {
+                        "id": 2,
+                        "ingredient": "1 / 3 średniego bakłażana"
+                    },
+                    {
+                        "id": 3,
+                        "ingredient": "½ średniej cebuli"
+                    },
+                    {
+                        "id": 4,
+                        "ingredient": "1 / 3 puszki pomidorów"
+                    },
+                    {
+                        "id": 5,
+                        "ingredient": "1 łyżeczka oliwy z oliwek"
+                    },
+                    {
+                        "id": 6,
+                        "ingredient": "½ ząbka czosnku"
+                    },
+                    {
+                        "id": 7,
+                        "ingredient": "1 łyżeczka posiekanej natki pietruszki"
+                    },
+                    {
+                        "id": 8,
+                        "ingredient": "Sól morska, pieprz czarny świeżo mielony, majeranek, tymianek, bazylia"
+                    }
+                ],
+                "instructions": [{
+                        "id": 1,
+                        "instruction": "Soczewicę gotować w lekko posolonej wodzie przez ok .30 minut."
+                    },
+                    {
+                        "id": 2,
+                        "instruction": "Cebulę obrać i pokroić w kostkę, czosnek przecisnąć przez praskę."
+                    },
+                    {
+                        "id": 3,
+                        "instruction": "Bakłażana umyć, obrać i pokroić w większą kostkę."
+                    },
+                    {
+                        "id": 4,
+                        "instruction": "Na rozgrzanej oliwie z oliwek podsmażyć cebulę i czosnek, następnie dodać bakłażana i pomidory."
+                    },
+                    {
+                        "id": 5,
+                        "instruction": "Całość dusić do momentu kiedy warzywa będą miękkie."
+                    },
+                    {
+                        "id": 6,
+                        "instruction": "Ugotowaną soczewicę odcedzić i dodać do warzyw, doprawić przyprawami i dokładnie wymieszać."
+                    },
+                    {
+                        "id": 7,
+                        "instruction": "Dusić jeszcze przez kilka minut."
+                    },
+                    {
+                        "id": 8,
+                        "instruction": "Gotowe danie posypać posiekaną natką pietruszki."
+                    }
+                ]
+            }
+        ],
+        "plans": [{
+                "id": 1,
+                "planName": "Tydzien 1 diety",
+                "planDescription": "Roznorodne posilki z duza iloscia warzyw i owocow",
+                "weekNumber": 1,
+                "Monday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Tuesday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Wednesday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Thursday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Friday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Saturday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                },
+                "Sunday": {
+                    "Breakfast": "Jajecznica",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Filet z indyka",
+                    "Tea": "Krem z cukinii",
+                    "Dinner": "Soczewica w sosie pomidorowym"
+                }
+            },
+            {
+                "id": 2,
+                "planName": "Tydzien 2 diety",
+                "planDescription": "wegetarianski tydzien",
+                "weekNumber": 2,
+                "Monday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Tuesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Wednesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Thursday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Friday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Saturday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                },
+                "Sunday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Twarozek",
+                    "Lunch": "Danie drobiowe",
+                    "Tea": "Koktail pomidorowy",
+                    "Dinner": "Sałatka z łososiem"
+                }
+            },
+            {
+                "id": 3,
+                "planName": "Tydzien 3 diety",
+                "planDescription": "Czas na miesozercow",
+                "weekNumber": 3,
+                "Monday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Tuesday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Wednesday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Thursday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Friday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Saturday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                },
+                "Sunday": {
+                    "Breakfast": "Omlet",
+                    "SecondBreakfast": "Koktail",
+                    "Lunch": "Sola z warzywami",
+                    "Tea": "Krem z pomidorów",
+                    "Dinner": "Salatka"
+                }
+            },
+            {
+                "id": 4,
+                "planName": "Tydzien 4 diety",
+                "planDescription": "Bezcukrowy",
+                "weekNumber": 4,
+                "Monday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Tuesday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Wednesday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Thursday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Friday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Saturday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                },
+                "Sunday": {
+                    "Breakfast": "Twarożek",
+                    "SecondBreakfast": "Sałatka owocowa",
+                    "Lunch": "Cieciorka ze szpinakiem",
+                    "Tea": "Zielony koktajl",
+                    "Dinner": "Sałatka z awokado"
+                }
+            },
+            {
+                "id": 5,
+                "planName": "Tydzien 5 diety",
+                "planDescription": "Bialko, bialko i jeszcze raz bialko",
+                "weekNumber": 5,
+                "Monday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Tuesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Wednesday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Thursday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Friday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Saturday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                },
+                "Sunday": {
+                    "Breakfast": "Owsianka",
+                    "SecondBreakfast": "Tost razowy",
+                    "Lunch": "Pęczak z kurczakiem",
+                    "Tea": "Sok warzywny",
+                    "Dinner": "Sałatka z rukolą"
+                }
+            },
+            {
+                "id": 6,
+                "planName": "Tydzien 6 diety",
+                "planDescription": "Chleb i woda",
+                "weekNumber": 6,
+                "Monday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Tuesday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Wednesday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Thursday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Friday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Saturday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                },
+                "Sunday": {
+                    "Breakfast": "Kanapki z tuńczykiem",
+                    "SecondBreakfast": "Koktajl",
+                    "Lunch": "Kasza z brokułem",
+                    "Tea": "Zupa marchewkowa",
+                    "Dinner": "Sałatka z indykiem"
+                }
+            },
+            {
+                "id": 7,
+                "planName": "Tydzien 7 diety",
+                "planDescription": "Chocby na skrobii...",
+                "weekNumber": 7,
+                "Monday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Tuesday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Wednesday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Thursday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Friday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Saturday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                },
+                "Sunday": {
+                    "Breakfast": "Jaglanka",
+                    "SecondBreakfast": "Kanapka",
+                    "Lunch": "Sałatka z makaronem",
+                    "Tea": "Koktaj",
+                    "Dinner": "Fasolka szparagowa"
+                }
+            }
+        ]
+    }
 }
