@@ -1,67 +1,132 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import {UserNameContext} from "./UserNameContext";
 
-import SubmitFormButton from "./SubmitFormButton"
+import SubmitFormButton from "./SubmitFormButton";
 
-import Pulpit from "../Pulpit/Pulpit"
-// import RecipesList from "../RecipesList/RecipesList";
-// import PlansList from "../PlansList/PlansList";
-// import ShoppingList from "../ShoppingList/ShoppingList";
+import "../../../scss/components/MealsApp/WelcomePage/WelcomePage.scss";
 
-import "../../../scss/components/MealsApp/WelcomePage/WelcomePage.scss"
-// import { Route, Switch } from "react-router-dom";
+const MY_URL = "https://cors-anywhere.herokuapp.com/https://firebasestorage.googleapis.com/v0/b/food-planner-7754f.appspot.com/o/emails.json?alt=media&token=77074169-91f9-4b0d-abc6-6b55d3ba9aee";
+const MY_DB = "http://localhost:3005";
 
-const WelcomePage = ({ onDone }) => {
-    const [userName, setUserName] = useState('')
-    const [data, setData] = useState();
+const WelcomePage = () => {
+    const [inputName, setInputName] = useState('');
+    const { userName, setUserName } = useContext(UserNameContext);
+    const [data, setData] = useState(null);
+  
 
     useEffect(() => {
-        fetch('http://localhost:3001/db')
-            .then(res => {
-                if (res.ok) {
-                    return res
-                } 
-                throw new Error(res.status);
-                // console.log(res);
-            })
+        fetch(`${MY_URL}/users`)
             .then(resp => resp.json())
             .then(res => setData(res))
             .catch(err => console.log(err));
-    }, [userName]);
+    }, []);
 
-    
-    
-    const handleClick = (e) => {
-        e.preventDefault();
-        console.log(userName)
-        onDone(userName)
-        // setUserName(document.forms[0].[0].value)
-       
-        // setUserName(e.target.value)
-        // console.log(data.[`${userName}`], userName)
-        // if (!data) {
-        //     console.log('Ladowanie danych')
-        // } else if (!data.[`${userName}`]) {
-        //     setUserName(data.[`${userName}`])
-        // } 
+    const handleClick = () => {
+        if (data.some(el => el.name === `${inputName}`)) {
+            setUserName(inputName);
+        } else {
+            setUserName(inputName);
+            const newUser = {    
+                "name": `${inputName}`,
+                "recipes": [{
+                    "id": "",
+                    "recipeName": "",
+                    "recipeDescription": "",
+                    "ingredients":[
+                        {
+                            "id": "",
+                            "ingredient": ""
+                        }
+                    ],
+                    "instructions": [
+                        {
+                        "id": "",
+                        "instruction": ""
+                        }
+                    ]
+                }],
+                "plans": [{
+                    "id": "",
+                    "planName": "",                          
+                    "planDescription": "",
+                    "weekNumber": "1",
+                    "Monday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    },
+                    "Tuesday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    },
+                        "Wednesday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    },
+                        "Thursday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    },
+                        "Friday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    },
+                        "Saturday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    },
+                        "Sunday": {
+                        "Breakfast": "",
+                        "SecondBreakfast": "",
+                        "Lunch": "",
+                        "Tea": "",
+                        "Dinner": ""
+                    }
+                }]
+            }
+
+            fetch(`${MY_URL}/users`, {
+                method: 'POST',
+                body: JSON.stringify(newUser),
+                headers: {
+                  'Content-Type': 'application/json'
+                }
+              })
+                .then(resp => resp.json())
+                .then(res => console.log(res, 'Wyslane'))
+                .catch(error => console.log(error));
+        
+        }
     }
 
     return(
-        // (!data) && (!data.[`${userName}`]) ? (
         <section className="app_content">
             <div className="welcome_board">
-            
-                <form>
+                <div>
                     <h1>Hi,</h1>
                     <h2>Let us know your name <br /> and we will set the App up for you</h2>
-                    <input name="name" value={userName} placeholder="your name" onChange={(e) => setUserName(e.target.value)}/>
+                    <input name="name" value={inputName} placeholder="your name" onChange={e => setInputName(e.target.value)}/>
                     <SubmitFormButton onDone={handleClick} width="150px" height="40px" text="Go!" />
-                </form>
-               
+                </div>
             </div>
         </section>
-        // ) : (
-        //     <Pulpit />
-        // )
     )
 }
 

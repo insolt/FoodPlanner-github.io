@@ -5,7 +5,6 @@ import "../../../scss/components/LandingPage/MealsPlanner/ButtonCallToAction.scs
 
 const ButtonCallToAction = ({ target, width, height, text }) => {
     
-
     return(
         <div className="button">
             <Link to={target}><button className="button" style={{ width:width, height:height }}>{text}</button></Link>

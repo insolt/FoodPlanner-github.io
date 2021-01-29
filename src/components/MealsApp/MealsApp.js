@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { UserNameContext } from "./WelcomePage/UserNameContext";
 
 import Header from "./Header";
 import Nav from "./Nav";
@@ -7,54 +8,27 @@ import Pulpit from "./Pulpit";
 
 import "../../scss/components/MealsApp/MealsApp.scss";
 
+const MY_URL = "https://cors-anywhere.herokuapp.com/https://firebasestorage.googleapis.com/v0/b/food-planner-7754f.appspot.com/o/emails.json?alt=media&token=77074169-91f9-4b0d-abc6-6b55d3ba9aee";
+const MY_DB = "http://localhost:3005";
+
 const MealsApp = () => {
     const [data, setData] = useState();
-    const [userName, setUserName] = useState('')
-
+    const { userName } = useContext(UserNameContext);
+    
     useEffect(() => {
-        fetch('http://localhost:3001/db')
-            .then(res => {
-                if (res.ok) {
-                    return res
-                } 
-                throw new Error(res.status);
-                // console.log(res);
-            })
+        fetch(`${MY_URL}/users`)
             .then(resp => resp.json())
             .then(res => setData(res))
             .catch(err => console.log(err));
     }, []);
 
-    console.log(userName)
-
-    let mainScreen;
-    if (!userName) {
-        mainScreen = <WelcomePage onDone={setUserName}/>
-    } else {
-        mainScreen = <Pulpit />
-    }
-    // const handleClick = (e) => {
-    //     setUserName(e.target.value)
-        // console.log(data)
-        
-        // if (!data) {
-        //     console.log('Ladowanie danych')
-        // } else if (!data.[`${userName}`]) {
-        //     setUserName(data.[`${userName}`])
-        // } 
-    // }
-    // setUserName(data.[`${userName}`])
-    // userName={data.[`${userName}`]}
-    // (!data.[`${userName}`]) ? (
     return(
         <>
-        {/* (!data) ? ( */}
-            <Header userName={userName}/>
+            <Header />
                 <div className="app">
                     <Nav />
-                    {mainScreen}
+                    {(!data) || (!userName) ? <WelcomePage /> : <Pulpit />}
                 </div>
-     
         </>
     )
 }

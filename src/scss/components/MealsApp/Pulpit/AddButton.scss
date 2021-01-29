@@ -8,14 +8,17 @@ button.add_button {
     justify-items: space-around;
     align-items: center;
     cursor: pointer;
-    i {
-        padding-top: 25px;
-        color: var(--success);
-        font-size: 3em;
-    }
-    p {
-        color: var(--success);
-        font-size: 1em;
-        font-weight: 300;
+    a {
+        width: 100%;
+        i {
+            padding-top: 25px;
+            color: var(--success);
+            font-size: 3em;
+        }
+        p {
+            color: var(--success);
+            font-size: 1em;
+            font-weight: 300;
+        }
     }
 }

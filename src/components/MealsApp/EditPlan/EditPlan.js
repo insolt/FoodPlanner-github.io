@@ -5,20 +5,21 @@ import Header from "../Header";
 import Nav from "../Nav";
 import SubmitFormButton from "../WelcomePage/SubmitFormButton";
 import MealSelect from "../WelcomePage/MealSelect";
-import Pulpit from "../Pulpit/Pulpit";
+import Pulpit from "../Pulpit";
 
 import "../../../scss/components/MealsApp/AddPlan/AddPlan.scss";
 
-const MY_URL = "https://cors-anywhere.herokuapp.com/https://firebasestorage.googleapis.com/v0/b/food-planner-7754f.appspot.com/o/emails.json?alt=media&token=77074169-91f9-4b0d-abc6-6b55d3ba9aee";
-const MY_DB = "http://localhost:3005";
+const MY_URL = "https://cors-anywhere.herokuapp.com/https://firebasestorage.googleapis.com/v0/b/food-planner-7754f.appspot.com/o/db.json?alt=media&token=538068e1-3446-4406-84ad-c9240b665775";
+const MY_DB = "http://localhost:3005/users";
 
-const AddPlan = () => {
+const EditPlan = () => {
     const { userName } = useContext(UserNameContext);
     const [data, setData] = useState();
+    const [view, setView] = useState(false);
     const [form, setForm] = useState({
         planName: '',
         planDescription: '',
-        weekNumber: 0,
+        weekNumber: 1,
         MondayBreakfast: "",
         MondaySecondBreakfast: "",
         MondayLunch: "",
@@ -54,14 +55,56 @@ const AddPlan = () => {
         SundayLunch: "",
         SundayTea: "",
         SundayDinner: ""
-    });
-    const [view, setView] = useState(false);
+    })
 
     useEffect(() => {
-        fetch(`${MY_URL}/users`)
-            .then(resp => resp.json())
-            .then(res => setData(res))
-            .catch(error => console.log(error));
+        setData(JSON.parse(localStorage.getItem('editData')));
+        let itemSentToEdit = JSON.parse(localStorage.getItem('editDescription'));
+        console.log(itemSentToEdit[0].Monday.Breakfast)
+        console.log(itemSentToEdit[0].Tuesday.Breakfast)
+        console.log(itemSentToEdit[0].Wednesday.Breakfast)
+        setForm(prev => ({
+            ...prev,
+            planName: itemSentToEdit[0].planName,
+            planDescription: itemSentToEdit[0].planDescription,
+            weekNumber: itemSentToEdit[0].weekNumber,
+            MondayBreakfast: itemSentToEdit[0].Monday.Breakfast,
+            MondaySecondBreakfast: itemSentToEdit[0].Monday.SecondBreakfast,
+            MondayLunch: itemSentToEdit[0].Monday.Lunch,
+            MondayTea: itemSentToEdit[0].Monday.Tea,
+            MondayDinner: itemSentToEdit[0].Monday.Dinner,
+            TuesdayBreakfast: itemSentToEdit[0].Tuesday.Breakfast,
+            TuesdaySecondBreakfast: itemSentToEdit[0].Tuesday.SecondBreakfast,
+            TuesdayLunch: itemSentToEdit[0].Tuesday.Lunch,
+            TuesdayTea: itemSentToEdit[0].Tuesday.Tea,
+            TuesdayDinner: itemSentToEdit[0].Tuesday.Dinner,
+            WednesdayBreakfast: itemSentToEdit[0].Wednesday.Breakfast,
+            WednesdaySecondBreakfast: itemSentToEdit[0].Wednesday.SecondBreakfast,
+            WednesdayLunch: itemSentToEdit[0].Wednesday.Lunch,
+            WednesdayTea: itemSentToEdit[0].Wednesday.Tea,
+            WednesdayDinner: itemSentToEdit[0].Wednesday.Dinner,
+            ThursdayBreakfast: itemSentToEdit[0].Thursday.Breakfast,
+            ThursdaySecondBreakfast: itemSentToEdit[0].Thursday.SecondBreakfast,
+            ThursdayLunch: itemSentToEdit[0].Thursday.Lunch,
+            ThursdayTea: itemSentToEdit[0].Thursday.Tea,
+            ThursdayDinner: itemSentToEdit[0].Thursday.Dinner,
+            FridayBreakfast: itemSentToEdit[0].Friday.Breakfast,
+            FridaySecondBreakfast: itemSentToEdit[0].Friday.SecondBreakfast,
+            FridayLunch: itemSentToEdit[0].Friday.Lunch,
+            FridayTea: itemSentToEdit[0].Friday.Tea,
+            FridayDinner: itemSentToEdit[0].Friday.Dinner,
+            SaturdayBreakfast: itemSentToEdit[0].Saturday.Breakfast,
+            SaturdaySecondBreakfast: itemSentToEdit[0].Saturday.SecondBreakfast,
+            SaturdayLunch: itemSentToEdit[0].Saturday.Lunch,
+            SaturdayTea: itemSentToEdit[0].Saturday.Tea,
+            SaturdayDinner: itemSentToEdit[0].Saturday.Dinner,
+            SundayBreakfast: itemSentToEdit[0].Sunday.Breakfast,
+            SundaySecondBreakfast: itemSentToEdit[0].Sunday.SecondBreakfast,
+            SundayLunch: itemSentToEdit[0].Sunday.Lunch,
+            SundayTea: itemSentToEdit[0].Sunday.Tea,
+            SundayDinner: itemSentToEdit[0].Sunday.Dinner
+        }));
+        localStorage.clear()
     }, [])
 
     const handleChange = ({ target: { name, value }}) => {
@@ -159,7 +202,7 @@ const AddPlan = () => {
             .then(resp => resp.json())
             .then(res => console.log(res))
             .catch(error => console.log(error));
-
+        
         setView(true)
     }
     
@@ -175,7 +218,7 @@ const AddPlan = () => {
                     <div className="add_new_plan">
                         <form className="add_new_plan_form">
                             <div className="new_plan_header">
-                                <h1>NEW PLAN</h1>
+                                <h1>EDIT PLAN</h1>
                                 <SubmitFormButton onDone={handleSubmit} width="150px" height="35px" text="Save & close" />
                             </div>
                             <div className="description">
@@ -204,59 +247,59 @@ const AddPlan = () => {
                                     <tbody>
                                         <tr>
                                             <th>MONDAY</th>
-                                            <td><MealSelect name="MondayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="MondaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="MondayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="MondayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="MondayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.MondayBreakfast} name="MondayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.MondaySecondBreakfast} name="MondaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.MondayLunch} name="MondayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.MondayTea} name="MondayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.MondayDinner} name="MondayDinner" onDone={handleChange}/></td>
                                         </tr>
                                         <tr>
                                             <th>TUESDAY</th>
-                                            <td><MealSelect name="TuesdayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="TuesdaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="TuesdayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="TuesdayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="TuesdayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.TuesdayBreakfast} name="TuesdayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.TuesdaySecondBreakfast} name="TuesdaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.TuesdayLunch} name="TuesdayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.TuesdayTea} name="TuesdayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.TuesdayDinner} name="TuesdayDinner" onDone={handleChange}/></td>
                                         </tr>
                                         <tr>
                                             <th>WEDNESDAY</th>
-                                            <td><MealSelect name="WednesdayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="WednesdaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="WednesdayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="WednesdayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="WednesdayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.WednesdayBreakfast} name="WednesdayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.WednesdaySecondBreakfast} name="WednesdaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.WednesdayLunch} name="WednesdayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.WednesdayTea} name="WednesdayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.WednesdayDinner} name="WednesdayDinner" onDone={handleChange}/></td>
                                         </tr>
                                         <tr>
                                             <th>THURSDAY</th>
-                                            <td><MealSelect name="ThursdayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="ThursdaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="ThursdayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="ThursdayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="ThursdayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.ThursdayBreakfast} name="ThursdayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.ThursdaySecondBreakfast} name="ThursdaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.ThursdayLunch} name="ThursdayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.ThursdayTea} name="ThursdayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.ThursdayDinner} name="ThursdayDinner" onDone={handleChange}/></td>
                                         </tr>
                                         <tr>
                                             <th>FRIDAY</th>
-                                            <td><MealSelect name="FridayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="FridaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="FridayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="FridayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="FridayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.FridayBreakfast} name="FridayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.FridaySecondBreakfast} name="FridaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.FridayLunch} name="FridayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.FridayTea} name="FridayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.FridayDinner} name="FridayDinner" onDone={handleChange}/></td>
                                         </tr>
                                         <tr>
                                             <th>SATURDAY</th>
-                                            <td><MealSelect name="SaturdayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SaturdaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SaturdayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SaturdayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SaturdayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SaturdayBreakfast} name="SaturdayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SaturdaySecondBreakfast} name="SaturdaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SaturdayLunch} name="SaturdayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SaturdayTea} name="SaturdayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SaturdayDinner} name="SaturdayDinner" onDone={handleChange}/></td>
                                         </tr>
                                         <tr>
                                             <th>SUNDAY</th>
-                                            <td><MealSelect name="SundayBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SundaySecondBreakfast" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SundayLunch" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SundayTea" onDone={handleChange}/></td>
-                                            <td><MealSelect name="SundayDinner" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SundayBreakfast} name="SundayBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SundaySecondBreakfast} name="SundaySecondBreakfast" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SundayLunch} name="SundayLunch" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SundayTea} name="SundayTea" onDone={handleChange}/></td>
+                                            <td><MealSelect initialValue={form.SundayDinner} name="SundayDinner" onDone={handleChange}/></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -264,13 +307,13 @@ const AddPlan = () => {
                         </form>
                     </div>
                 </section>
-                ) : (
-                        <Pulpit />
-                    )
-                }
+                  ) : (
+                    <Pulpit />
+                )
+            }
             </div>
         </>
     )
 }
 
-export default AddPlan;
+export default EditPlan;

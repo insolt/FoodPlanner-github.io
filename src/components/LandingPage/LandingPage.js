@@ -11,7 +11,6 @@ import Footer from "./Footer/Footer";
 
 import "../../scss/components/LandingPage/LandingPage.scss";
 
-
 const LandingPage = () => {
     return(
         <div>
