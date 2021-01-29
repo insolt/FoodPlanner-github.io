@@ -5,7 +5,6 @@ import slide3 from '../../../images/3.jpg';
 import slide4 from '../../../images/4.jpg';
 import slide5 from '../../../images/5.jpg';
 
-
 import "../../../scss/components/LandingPage/Carousel/Carousel.scss";
 
 const Carousel = () => {

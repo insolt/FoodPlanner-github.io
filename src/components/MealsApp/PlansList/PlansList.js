@@ -1,36 +1,66 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
+import {UserNameContext} from "../WelcomePage/UserNameContext";
 
 import Header from "../Header";
 import Nav from "../Nav";
 
 import "../../../scss/components/MealsApp/PlansList/PlansList.scss";
 
+const MY_URL = "https://cors-anywhere.herokuapp.com/https://firebasestorage.googleapis.com/v0/b/food-planner-7754f.appspot.com/o/emails.json?alt=media&token=77074169-91f9-4b0d-abc6-6b55d3ba9aee";
+const MY_DB = "http://localhost:3005";
+
 const PlansList = () => {
+    const { userName } = useContext(UserNameContext);
     const [data, setData] = useState();
 
     useEffect(() => {
-        fetch('http://localhost:3001/db')
-            .then(res => {
-                if (res.ok) {
-                    return res
-                } 
-                throw new Error(res.status);
-                // console.log(res);
-            })
+        fetch(`${MY_URL}/users`)
             .then(resp => resp.json())
             .then(res => setData(res))
             .catch(err => console.log(err));
-    }, []);
+    }, [data]);
+
+    let userID;
+    let mealsObjToArr = [];
+    let weekFilteredMealsRecipes = [];
+    let weekFilteredMealsPlans = [];
+    
+    if ((data) && (userName)) {
+    
+        mealsObjToArr.push(data.filter(el => el.name == `${userName}`));
+        userID = mealsObjToArr[0][0].id;
+        weekFilteredMealsRecipes = mealsObjToArr[0][0].recipes;
+        weekFilteredMealsPlans = mealsObjToArr[0][0].plans;
+    }
 
     const handleClickEdit = (e) => {
-        console.log(e.target)
+        localStorage.setItem('editDescription', JSON.stringify(weekFilteredMealsPlans.filter(el => el.planDescription == e.target.dataset.name)));
+        localStorage.setItem('editData', JSON.stringify(data));
     }
 
     const handleClickRemove = (e) => {
-        console.log(e.target)
-    }
-    
+        let reducedWeekPlans = weekFilteredMealsPlans.filter(el => el.planDescription != e.target.dataset.name);
+        weekFilteredMealsPlans = reducedWeekPlans;
+
+            const filteredUserPlan = {
+                    "name": `${userName}`,
+                    "recipes": weekFilteredMealsRecipes,
+                    "plans": weekFilteredMealsPlans
+            };
+            
+            fetch(`${MY_URL}/users/${userID}`, {
+                method: 'PUT',
+                body: JSON.stringify(filteredUserPlan),
+                headers: {
+                  'Content-Type': 'application/json'
+                }
+              })
+                .then(resp => resp.json())
+                .then(res => console.log(res))
+                .catch(error => console.log(error));
+        }
+        
     return(
         <>
         <Header />
@@ -54,16 +84,16 @@ const PlansList = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {(!data) ? (
+                                    {(!data) || (!userName) ? (
                                         <tr><td><p className="meal">Ladowanie danych</p></td></tr>
                                         ) : (
-                                        data.Michal.plans.map((el, i) => (
+                                            weekFilteredMealsPlans.map((el, i) => (
                                             <tr key={el.id}>
                                                 <td>{el.id}</td>
                                                 <td>{el.planName}</td>
                                                 <td>{el.planDescription}</td>
                                                 <td>{el.weekNumber}</td>
-                                                <td><i className="fas fa-edit" onClick={handleClickEdit}></i><i className="far fa-trash-alt" onClick={handleClickRemove}></i></td>
+                                                <td><Link to="/editplan"><i data-name={el.planDescription} className="fas fa-edit" onClick={handleClickEdit}></i></Link><i data-name={el.planDescription} className="far fa-trash-alt" onClick={handleClickRemove}></i></td>
                                             </tr>
                                         )))}
                                 </tbody>

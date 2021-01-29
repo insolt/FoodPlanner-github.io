@@ -5,7 +5,6 @@ import Navigation from "./Navigation";
 
 import "../../../scss/components/LandingPage/Header/Header.scss";
 
-
 const Header = () => {
     return(
             <div className="header">

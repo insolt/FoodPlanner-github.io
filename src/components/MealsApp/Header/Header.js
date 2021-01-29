@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserNameContext } from "../WelcomePage/UserNameContext";
 
-import Logo from "../../LandingPage/Header/Logo"
+import Logo from "../../LandingPage/Header/Logo";
 
-import "../../../scss/components/MealsApp/Header/Header.scss"
+import "../../../scss/components/MealsApp/Header/Header.scss";
 
-const Header = ({ userName }) => {
+const Header = () => {
+    const { userName } = useContext(UserNameContext);
+    
     return(
         <header className="app_header">
             <Logo />

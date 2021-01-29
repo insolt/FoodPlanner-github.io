@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import  {UserNameContext} from "../WelcomePage/UserNameContext";
 
 import Header from "../Header";
 import Nav from "../Nav";
@@ -7,6 +8,7 @@ import "../../../scss/components/MealsApp/MealsApp.scss";
 import "../../../scss/components/MealsApp/ShoppingList/ShoppingList.scss";
 
 const ShoppingList = () => {
+    const { userName, setUserName } = useContext(UserNameContext);
   
     
     return(
